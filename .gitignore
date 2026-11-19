@@ -1,0 +1,14 @@
+# Секреты
+.env
+**/.env
+!.env.example
+
+# Окружение и кэш
+.venv/
+__pycache__/
+
+# Личные данные и локальные артефакты
+backup/
+scripts/digest.log
+*.bak
+.claude/settings.local.json
